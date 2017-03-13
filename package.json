@@ -11,13 +11,14 @@
     "type": "git",
     "url": "git+https://github.com/cmd-kvn/webpack-from-scratch.git"
   },
-  "author": "",
+  "author": "Kevin Wong",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cmd-kvn/webpack-from-scratch/issues"
   },
   "homepage": "https://github.com/cmd-kvn/webpack-from-scratch#readme",
   "devDependencies": {
+    "html-webpack-plugin": "^2.28.0",
     "webpack": "^2.2.1"
   }
 }
