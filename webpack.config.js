@@ -10,5 +10,14 @@
          new HtmlWebpackPlugin({
              template: './src/index.html'
          })
-     ]
+     ],
+     module: {
+         rules: [{
+             enforce: 'pre',
+             test: /\.js$/,
+             loader: 'eslint-loader',
+             exclude: /node_modules/
+         }
+         ]
+     }
  };
