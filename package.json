@@ -24,6 +24,7 @@
   "devDependencies": {
     "babel-core": "^6.24.0",
     "babel-loader": "^6.4.0",
+    "babel-plugin-transform-react-jsx": "^6.23.0",
     "chai": "^3.5.0",
     "eslint": "^3.17.1",
     "eslint-loader": "^1.6.3",
@@ -32,5 +33,14 @@
     "mocha": "^3.2.0",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.4.2"
+  },
+  "babel": {
+    "plugins": [
+      "transform-react-jsx"
+    ]
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
   }
 }
