@@ -1,9 +1,20 @@
+import HtmlWebpackPlugin from 'html-webpack-plugin';
+
 module.exports = {
     entry: './src/index.js',
     output: {
         filename: 'bundle.js'
     },
     devtool: 'source-map',
+    plugins: [
+        new HtmlWebpackPlugin({
+            template: './src/index.html'
+        }),
+        new CopyWebpackPlugin([{
+            from: './src/images',
+            to: 'images'
+        }])
+    ],
     module: {
         rules: [{
             enforce: 'pre',
