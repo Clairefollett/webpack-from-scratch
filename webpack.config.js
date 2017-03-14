@@ -1,4 +1,5 @@
-import HtmlWebpackPlugin from 'html-webpack-plugin';
+const HtmlWebpackPlugin = require ('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     entry: './src/index.js',
@@ -27,7 +28,7 @@ module.exports = {
             loader: 'babel-loader'
         }, {
             test: /\.scss$/,
-            loader: style=loader!css-loader!sass-loader''
+            loader: 'style-loader!css-loader!sass-loader'
         }]
     }
 };
