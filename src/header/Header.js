@@ -7,7 +7,7 @@ function Header() {
         <header>
             <h1>Simple React Page</h1>
         </header>
-    )
+    );
 }
 
 export default Header;
