@@ -5,8 +5,6 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint src/**/*.js",
-    // "pretest": "npm run lint",
-    // "test": "mocha",
     "start": "webpack-dev-server --inline",
     "build": "webpack --output-path build"
   },
