@@ -9452,6 +9452,7 @@ function App(props) {
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
             'div',
             null,
+            'hi ',
             props.color
         )
     );
