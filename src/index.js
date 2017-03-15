@@ -4,6 +4,6 @@ import App from './components/App';
 import './main.scss';
 
 ReactDOM.render(
-  < App image='Mermaid' />,
+  < App description='Mermaid' />,
   document.getElementById('root')
 );
