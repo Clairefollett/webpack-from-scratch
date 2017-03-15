@@ -1,8 +1,10 @@
-:local(.atlantis) {
+:local(.mermaid) {
   color: blue;
 
   span {
+    color: mediumaquamarine;
     font-weight: bold;
     font-style: italic;
+    font-size: 18px;
   }
 }
