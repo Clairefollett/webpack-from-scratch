@@ -35,6 +35,9 @@
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.4.2"
   },
+  "babel": {
+    "plugins": ["transform-react-jsx"]
+  },
   "dependencies": {
     "react": "^15.4.2",
     "react-dom": "^15.4.2",

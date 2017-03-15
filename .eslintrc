@@ -4,14 +4,17 @@
         "sourceType": "module",
         "ecmaFeatures": {
             "modules": true,
-            "impliedStrict": true
+            "impliedStrict": true,
+            "jsx": true
         }
     },
     "env": {
         "node": true,
         "mocha": true,
-        "es6": true
+        "es6": true,
+        "browser": true
     },
+    "plugins": ["react"],
     "extends": "eslint:recommended",
     "rules": {
         "no-console": "off",
