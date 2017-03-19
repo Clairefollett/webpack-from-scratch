@@ -22,6 +22,9 @@ module.exports = {
             test: /\.js$/,
             exclude: 'node_modules',
             use: 'babel-loader?presets[]=react&presets[]=es2015',
+        }, {
+            test: /\.scss$/,
+            loader: 'style-loader!css-loader!sass-loader'
         }]
     }
 };
