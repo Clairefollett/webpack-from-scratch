@@ -1,14 +1,12 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import Blue from './Blue';
+import Green from './Green';
 
-const App = ({color}) => (
+const App = () => (
         <div>
-            <p>something for the screen?</p>
-            <div>hi {color}</div>
+            <Blue />
+            <Green />
         </div>
     );
-
-App.propTypes = {
-    color: PropTypes.string
-};
 
 export default App;

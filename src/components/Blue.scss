@@ -1,0 +1,28 @@
+:local(.blue) {
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10pt;
+}
+
+:local(.steelblue) {
+    color: steelblue;
+    font-variant-caps: small-caps;
+}
+
+:local(.lightblue) {
+    color: lightblue;
+}
+
+:local(.cadetblue) {
+    color: cadetblue;
+    font-size: 30pt;
+}
+
+:local(.skyblue) {
+    color: skyblue;
+}
+
+:local(.dodgerblue) {
+    color: dodgerblue;
+    background-color: darkcyan; 
+}
